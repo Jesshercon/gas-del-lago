@@ -2,7 +2,8 @@
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/pages/**/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -16,8 +17,8 @@ module.exports = {
     colors: {
       //blues
       "blue-primary": "#1D3962",
-      "blue-secondary": "#04075E",
-      "blue-secondary-two": "#042369",
+      "blue-secondary": "#107BC2",
+      "blue-secondary-two": "#268DB7",
       "blue-secondary-third": "#045769",
 
       //green
@@ -35,7 +36,7 @@ module.exports = {
       "white-main": "#FFFEFC",
 
       //warnings
-      "yellow-warning": "#FEE535",
+      "yellow-warning": "#F5C30F",
       "red-warning": "#9E130E",
     },
   },
