@@ -14,7 +14,7 @@ export default function HomeHeroSection() {
           <h1 className="text-yellow-warning font-bold text-5xl monserrat pt-8 px-4">
             ¿QUÉ ES GAS DEL LAGO?
           </h1>
-          <p className="text-white-main hind-madurai justify-center pb-8 px-6 tracking-wide text-justify">
+          <p className="text-white-main hind-madurai justify-center pb-8 px-6 tracking-wide text-justify font-medium">
             Somos una empresa gasera con prácticas honestas y profesionales, que
             gracias a tu confianza, podemos seguir llegando a diferentes
             municipios para llevar el gas de tú confianza.
