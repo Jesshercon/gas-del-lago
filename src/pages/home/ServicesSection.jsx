@@ -1,3 +1,4 @@
+import Button from "@/src/components/ui/Button";
 import ServiceCard from "@/src/components/ui/ServiceCard";
 import React from "react";
 
@@ -43,6 +44,12 @@ export default function ServicesSection() {
           content="Cambia tu vehículo a gas L.P."
         />
       </div>
+      <Button
+        variant="action"
+        className="px-4 py-3 flex mx-auto mt-20 font-bold"
+      >
+        Realizar pedido
+      </Button>
     </div>
   );
 }
