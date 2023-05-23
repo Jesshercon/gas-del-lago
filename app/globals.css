@@ -26,6 +26,7 @@ body {
     )
     rgb(var(--background-start-rgb));
   font-family: "Madurai";
+  background: white;
 }
 
 .hind-madurai {
