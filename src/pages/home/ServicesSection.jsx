@@ -1,5 +1,5 @@
 import Button from "@/src/components/ui/Button";
-import ServiceCard from "@/src/components/ui/ServiceCard";
+import ServiceCard from "@/src/pages/aboutUs/ServiceCard";
 import React from "react";
 
 export default function ServicesSection() {

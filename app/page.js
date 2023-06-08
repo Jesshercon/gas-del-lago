@@ -9,7 +9,6 @@ export default function Home() {
       <HomeHeroSection />
       <ServicesSection />
       <SponsorshipSection />
-      <Footer />
     </main>
   );
 }
