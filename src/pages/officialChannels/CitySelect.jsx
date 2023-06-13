@@ -30,7 +30,7 @@ const CitySelect = ({
 
         {cities.map((city) => (
           <option
-            className="font-bold text-blue-primary"
+            className="font-bold text-blue-primary "
             value={city}
             key={city}
           >

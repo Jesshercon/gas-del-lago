@@ -39,9 +39,17 @@ export const OfficialChannels = () => {
           Selecciona la ciudad más cercana a tu domicilio:
         </p>
       </div>
-      <div className="flex pt-6">
+      <div className="grid grid-cols-2 pt-16 mx-auto">
         <img src="/woman-squares.png" />
-        <CitySelect cityTitle="Selecciona una ciudad" />
+        <div className=" space-y-16  mx-auto">
+          <CitySelect className=" " cityTitle="Selecciona una ciudad" />
+          <div className="flex gap-2 ">
+            <p className=" text-blue-primary">
+              ¿Deseas realizar un pedido online?
+            </p>
+            <p className="font-bold text-green-secondary">¡Da click aquí!</p>
+          </div>
+        </div>
       </div>
     </div>
   );
