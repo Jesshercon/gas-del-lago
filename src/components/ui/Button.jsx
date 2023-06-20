@@ -9,8 +9,10 @@ const Button = ({
 }) => {
   const classes = classNames(className, "rounded", {
     "bg-blue-secondary-two text-white-main": variant == "primary" && !inverse,
-    "bg-blue-secondary-two text-blue-secondary border border-blue-secondary-two":
+    "bg-blue-secondary-two text-white-main border border-blue-secondary-two":
       variant == "secondary" && inverse,
+    "border-blue-secondary-two text-blue-secondary-two border border-blue-secondary-two":
+      variant == "tertiary" && !inverse,
     "bg-yellow-warning text-blue-primary": variant == "action" && !inverse,
     "bg-yellow-warning border border-yellow-warning":
       variant == "action" && inverse,
@@ -20,6 +22,7 @@ const Button = ({
     "text-white-main border border-white-neutral":
       variant == "neutral" && !inverse,
     "text-white-main": variant == "neutral" && inverse,
+    "text-gray-main border border-gray-main": variant == "inactive" && !inverse,
   });
   return (
     <button {...restProps} className={classes}>
